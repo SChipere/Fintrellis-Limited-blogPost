@@ -141,7 +141,7 @@ npm install
 
 For production deployment:
 
-![Alt text](Screenshot from 2025-03-25 23-47-48.png)
+![Screenshot](Screenshot from 2025-03-25 23-47-48.png)
 
 ```shellscript
 # Build the application
