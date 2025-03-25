@@ -77,13 +77,13 @@ npm --version
 
 4. If it didn't install try
    ```shellscript
-npm install --force
-npm install react-day-picker@8.10.1 --legacy-peer-deps
-```
+   npm install --force
+   npm install react-day-picker@8.10.1 --legacy-peer-deps
+   ```
 5. Install Back4app dependecies for the database
  ```shellscript
-npm install parse @react-native-async-storage/async-storage --force
-```
+ npm install parse @react-native-async-storage/async-storage --force
+ ```
 
 ### Installing Node.js on Windows
 
