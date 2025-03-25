@@ -28,7 +28,6 @@ A modern full-stack blog post management application built with Next.js, Tailwin
 
 
 - [Project Setup](#project-setup)
-- [Configuration](#configuration)
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
@@ -76,10 +75,10 @@ npm --version
 ```
 
 4. If it didn't install try
-   ```shellscript
-   npm install --force
-   npm install react-day-picker@8.10.1 --legacy-peer-deps
-   ```
+```shellscript
+npm install --force
+npm install react-day-picker@8.10.1 --legacy-peer-deps
+```
 5. Install Back4app dependecies for the database
  ```shellscript
  npm install parse @react-native-async-storage/async-storage --force
