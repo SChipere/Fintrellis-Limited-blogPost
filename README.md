@@ -40,7 +40,6 @@ Before you begin, ensure you have the following:
 
 - Node.js (v18 or higher)
 - npm (v9 or higher)
-- A Back4App account (for the database)
 
 
 ## Installation
@@ -74,6 +73,16 @@ sudo apt install -y nodejs
 ```shellscript
 node --version
 npm --version
+```
+
+4. If it didn't install try
+   ```shellscript
+npm install --force
+npm install react-day-picker@8.10.1 --legacy-peer-deps
+```
+5. Install Back4app dependecies for the database
+ ```shellscript
+npm install parse @react-native-async-storage/async-storage --force
 ```
 
 ### Installing Node.js on Windows
@@ -122,44 +131,13 @@ cd blog-post-manager
 npm install
 ```
 
-## Configuration
-
-The application uses Back4App as the database. You need to configure your Back4App credentials:
-
-1. Create a Back4App account at [back4app.com](https://www.back4app.com/) if you don't have one.
-2. Create a new app in Back4App.
-3. In your Back4App app dashboard, navigate to "App Settings" > "Security & Keys" to get your Application ID and JavaScript Key.
-4. Create a `.env.local` file in the root directory of the project with the following content:
-
-
-```plaintext
-NEXT_PUBLIC_PARSE_APP_ID=your_application_id
-NEXT_PUBLIC_PARSE_JS_KEY=your_javascript_key
-NEXT_PUBLIC_PARSE_SERVER_URL=https://parseapi.back4app.com/
-```
-
-Replace `your_application_id` and `your_javascript_key` with your actual Back4App credentials.
-
-5. Create a "BlogPost" class in your Back4App database with the following fields:
-
-1. title (String)
-2. content (String)
-3. author (String)
-
-
 
 
 
 ## Running the Application
 
-1. Start the development server:
 
-
-```shellscript
-npm run dev
-```
-
-2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+1. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 
 For production deployment:
