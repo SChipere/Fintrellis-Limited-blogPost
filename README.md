@@ -1,5 +1,4 @@
 # Fintrellis-Limited-blogPost
-Thought for 2 seconds### Blog Post Manager
 
 A modern full-stack blog post management application built with Next.js, Tailwind CSS, and Back4App as the backend database.
 
