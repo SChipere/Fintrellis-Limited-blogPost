@@ -120,8 +120,8 @@ npm --version
 
 ```shellscript
 # If using Git
-git clone https://github.com/yourusername/blog-post-manager.git
-cd blog-post-manager
+git clone https://github.com/SChipere/Fintrellis-Limited-blogPost.git
+cd Fintrellis-Limited-blogPost/
 
 # If downloaded as a ZIP file
 # Extract the ZIP file and navigate to the extracted folder
