@@ -260,7 +260,7 @@ To run the test code type
 ```shellscript
 npx jest
 ```
-![Screenshot](testcase.png)
+![Screenshot](testcase2.png)
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
