@@ -39,6 +39,8 @@ Before you begin, ensure you have the following:
 
 - Node.js (v18 or higher)
 - npm (v9 or higher)
+- Back4app storage dependencies
+![Screenshots](backapp.png)  
 
 
 ## Installation
@@ -83,6 +85,7 @@ npm install react-day-picker@8.10.1 --legacy-peer-deps
  ```shellscript
  npm install parse @react-native-async-storage/async-storage --force
  ```
+![Screenshot](dependencies.png)
 
 ### Installing Node.js on Windows
 
