@@ -31,6 +31,7 @@ A modern full-stack blog post management application built with Next.js, Tailwin
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [Troubleshooting](#troubleshooting)
+- [Running Units test](#Test-code)
 
 
 ## Prerequisites
@@ -249,7 +250,17 @@ If you encounter any other issues:
 
 
 ---
+## Test code
+```shellscript
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom ts-jest @types/jest --force
+```
+![Screenshot](testcase.png)
 
+To run the test code type
+```shellscript
+npx jest
+```
+![Screenshot](testcase.png)
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
