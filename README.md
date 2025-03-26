@@ -141,7 +141,8 @@ npm install
 
 For production deployment:
 
-![Screenshot](image.png)
+![Screenshot](build.png)
+
 
 ```shellscript
 # Build the application
@@ -150,12 +151,15 @@ npm run build
 # Start the production server
 npm start
 ```
+![Screenshots](start.png)
 
 ## Usage
 
 ### Creating a Blog Post
 
+![Screenshot](home.png)
 1. Click on the "Create New Post" button on the homepage.
+![Screenshot](create.png)
 2. Fill in the title, author, and content fields.
 3. Click "Create Post" to save your blog post.
 
@@ -163,7 +167,10 @@ npm start
 ### Viewing Blog Posts
 
 - All blog posts are displayed on the homepage.
-- Click on a post card to view the full post.
+![Screenshot](home2.png)
+![Screenshot](home3.png)
+- Click on a post card to view the full post.  
+![Screenshot](view.png)
 
 
 ### Editing a Blog Post
@@ -179,6 +186,7 @@ npm start
 1. Navigate to the blog post you want to delete.
 2. Click the "Delete" button.
 3. Confirm the deletion in the dialog that appears.
+![Screenshot](delete.png)
 
 
 ## Troubleshooting
