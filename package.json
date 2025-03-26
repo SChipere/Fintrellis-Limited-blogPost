@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },"jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
