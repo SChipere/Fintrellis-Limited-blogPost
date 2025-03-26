@@ -76,7 +76,7 @@ node --version
 npm --version
 ```
 
-4. If it didn't install try
+3.1 If it didn't install try
 ```shellscript
 npm install --force
 npm install react-day-picker@8.10.1 --legacy-peer-deps
